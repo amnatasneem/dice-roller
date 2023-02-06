@@ -1,5 +1,7 @@
 window.onload = rollDice();
 
+document.getElementById("roll").readOnly = true;
+
 function rollDice() {
     const max = 6;
     const min = 1;
