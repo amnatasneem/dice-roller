@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    color: purple;
+    line-height: 50%;
+    margin: 25px 50px;
+    border: 100px solid black;
+    /* code for border below from https://www.youtube.com/watch?v=vnODfFJTLGg&ab_channel=Frankslaboratory */
+    width: 70%;
+    height: 60%;
+    padding: 15px;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-image: url(die.png);
+}
+
+#appName {
+    font-size: 90px;
+}
+
+#instructions {
+    font-size: 30px;
+}
+
+#header {
+    color: mediumpurple;
+    background-color: white;
+    width: fit-content;
+    height: 40px;
+}
+
+
+#roll {
+    font-size: 90px;
+    color: white;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.left {
+    float: left;
+}
